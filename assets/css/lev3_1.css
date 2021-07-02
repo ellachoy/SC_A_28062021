@@ -1,0 +1,56 @@
+caption{
+  font-size:1.5em;
+}
+table{
+    border:none;
+}
+th,td{
+    text-align:center;
+}
+/* 4.für "Januar"meine idee war*/
+/* thead tr:first-child th:nth-of-type(2){ 
+    color:blue;
+}*/
+thead tr:first-of-type th:nth-child(2){
+    color:blue;
+    font-size: 2em;
+}
+/* 5.meine idee war */
+/* tbody tr:nth-of-type(even){
+    background-color:#fcb941;
+}
+tbody tr:nth-of-type(odd){
+    background-color:#f1654c;
+} */
+tbody tr:nth-child(even){
+    background-color:#fcb941;
+}
+tbody tr:nth-child(odd){
+    background-color:#f1654c;
+}
+/* 6. */
+tbody tr:nth-child(odd) td:first-child{
+  background-color: #7e3661;
+  color:#fff;
+}
+/* 7. */
+tbody tr:nth-child(even) td:first-child{
+    background-color: #888888;
+    color:#fff;
+}
+/* 8. */
+tbody tr:nth-child(odd) td:last-child
+{
+    background-color: #8870ff;
+    color:#fff;
+}
+/* 9 */
+/* meine idee  */
+/* table thead tr th:last-child{
+    border-right:none;
+    border-top:none;
+} */
+thead tr:first-child th:last-child{
+    border-right:none;
+    border-top:none;
+}

@@ -1,0 +1,20 @@
+a:link{
+    color:tomato;
+    font-size: 20px;
+
+}
+a:visited{
+    color:#FCB941;
+    /* color:black; */
+}
+/* a:hover MUSS nach :link und a:visited im CSS definiert werden um zu funktionieren! 
+ */
+a:hover{
+    background-color: #7E3661;
+    color:white;
+    text-decoration:none;
+}
+/* a:active MUSS nach a:hover im CSS definiert werden um zu funktionieren!  */
+a:active{
+    font-size: 3em;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+ul li:nth-child(3n) {
+    color:#311b92;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li:nth-child(5n){
+    background-color:#fff176;
+}
+ul li:nth-child(even){
+    text-decoration: underline;
+}
+ul li:nth-child(odd){
+     list-style-type: square;
+}
+ul li:nth-child(7n){
+    font-size:1.6em;
+}
+ul li:first-child{
+    color:#e53935;
+}
+ul li:nth-child(4n){
+    letter-spacing:6px;
+}
+ul li:nth-child(13n){
+    background-color:#ff8a80;
+}

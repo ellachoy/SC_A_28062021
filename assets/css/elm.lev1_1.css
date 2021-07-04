@@ -1,26 +1,42 @@
-h3::first-letter{
-    color:#00796b;
-     font-size:3em;
-
+h3::first-letter {
+  color: #00796b;
+  font-size: 3em;
 }
 h3:hover:first-letter {
-    color:#4fc3f7;
+  color: #4fc3f7;
 }
-body ul li:nth-child(1):first-letter{
-    color:purple;
-    font-size: 2em;
-    text-decoration: overline;
+body ul li:nth-child(1):first-letter {
+  color: purple;
+  font-size: 2em;
+  text-decoration: overline;
 }
-body ul li:nth-child(2):first-letter{
-    color:#c51162;
-    font-size: 2em;
+body ul li:nth-child(2):first-letter {
+  color: #c51162;
+  font-size: 2em;
 }
-body ul li:nth-child(3):first-letter{
-    color:#64dd17;
-    font-size: 2em;
+body ul li:nth-child(3):first-letter {
+  color: #64dd17;
+  font-size: 2em;
 }
-body ul li:last-child{
-    text-decoration: line-through;
+body ul li:last-child {
+  text-decoration: line-through;
+}
+section p:first-child {
+  color: #37474f;
+  text-indent: 50px;
+}
+section p:not(:first-child)::first-letter {
+  font-size: 1.3em;
+  color: #d50000;
+  font-size: 1.5em;
+}
+section p:not(:first-child)::first-line {
+  color: green;
+}
+section p:not(:first-child):hover::first-line {
+  color: #303f9f;
 }
 
-
+section p:nth-child(2n) {
+  font-weight: 600px;
+}
